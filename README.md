@@ -1,8 +1,24 @@
-# React + Vite
+# Book Tracking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my simple Book Tracking App! This application helps you organize your reading list by categorizing books into three shelves: "Want To Read," "Currently Reading," and "Read."
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Shelves:**
+  - **To Read:**
+    - Add books you plan to read in the future.
+  - **Currently Reading:**
+    - Move books here when you are actively reading them.
+  - **Done:**
+    - Move books here once you have finished reading them.
+
+- **Easy Management:**
+  - Add, edit, and remove books with ease.
+  - Move books between shelves effortlessly.
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/book-tracking-app.git
+   cd book-tracking-app
