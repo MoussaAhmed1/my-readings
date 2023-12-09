@@ -13,6 +13,20 @@ export const Bookshelves = ({books,handleShelves}) => {
     <div className="list-books-content">
       <div>
         <div className="bookshelf">
+
+          <h2 className="bookshelf-title">Want to Read</h2>
+          <div className="bookshelf-books">
+            <ol className="books-grid">
+            {
+              books.filter(book=>book.shelf=="wantToRead").map(book=>{
+                return(  <li key={book.id}><Book  book={book} handleShelves={handleShelves} /></li>)
+              })
+
+             }     
+            </ol>
+          </div>
+        </div>
+        <div className="bookshelf">
           
           <h2 className="bookshelf-title">Currently Reading</h2>
           <div className="bookshelf-books">
@@ -24,20 +38,6 @@ export const Bookshelves = ({books,handleShelves}) => {
               })
 
              }      
-            </ol>
-          </div>
-        </div>
-        <div className="bookshelf">
-
-          <h2 className="bookshelf-title">Want to Read</h2>
-          <div className="bookshelf-books">
-            <ol className="books-grid">
-            {
-              books.filter(book=>book.shelf=="wantToRead").map(book=>{
-                return(  <li key={book.id}><Book  book={book} handleShelves={handleShelves} /></li>)
-              })
-
-             }     
             </ol>
           </div>
         </div>
