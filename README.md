@@ -1,6 +1,13 @@
-# Book Tracking App
+# Book Tracking App 
 
 Welcome to my simple Book Tracking App! This application helps you organize your reading list by categorizing books into three shelves: "Want To Read," "Currently Reading," and "Read."
+
+
+## Live Demo
+
+Check out the live demo: [Book Tracking App](https://my-readings.vercel.app/)
+
+
 
 ## Features
 
@@ -22,3 +29,5 @@ Welcome to my simple Book Tracking App! This application helps you organize your
    ```bash
    git clone https://github.com/your-username/book-tracking-app.git
    cd book-tracking-app
+   npm install
+   npm run dev
